@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "JSONLD",
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "JSONLD",
